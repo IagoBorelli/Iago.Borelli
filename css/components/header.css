@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+.logo {
+  font-size: 18pt;
+}
+
+header .header__left {
+  max-width: 62rem;
+  flex: 1;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 70rem;
+}
+
+header .header__right .header__image {
+  position: relative;
+  line-height: 0;
+}
+
+header .header__right .header__image::after {
+  content: '';
+  display: block;
+  width: 70%;
+  height: 100%;
+  border: 1px solid var(--tertiary-color);
+  position: absolute;
+  top: -1.5rem;
+  right: -3rem;
+  border-radius: 0.5rem;
+  z-index: -1;
+}
+
+header .header__right .header__image .iago {
+  border-radius: 0.5rem;
+  margin-left: 18rem;
+  min-width: 5rem;
+  max-width: 70%;
+}
+
+header .header__right .header__image .background {
+  position: absolute;
+  top: -4rem;
+  right: -4.5rem;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+
+  header .header__right .header__image .iago {
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    min-width: 5rem;
+    max-width: 80%;
+  }
+
+  header .header__right .header__image::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 100%;
+    border: 1px solid var(--tertiary-color);
+    position: absolute;
+    top: -1.5rem;
+    right: 0rem;
+    border-radius: 0.5rem;
+    z-index: -1;
+  }
+}
