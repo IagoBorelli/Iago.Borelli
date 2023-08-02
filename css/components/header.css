@@ -21,6 +21,10 @@ header .header__left p {
   max-width: 70rem;
 }
 
+.header__h1 {
+  width: 49rem;
+}
+
 header .header__right .header__image {
   position: relative;
   line-height: 0;
@@ -62,6 +66,16 @@ header .header__right .header__image .background {
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+
+  .header__h1 {
+    width: 50rem;
+  }
+
+  header .header__left p {
+    width: 40rem;
+  }
+
+
 
   header .header__right .header__image .iago {
     border-radius: 0.5rem;

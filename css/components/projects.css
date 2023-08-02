@@ -1,6 +1,7 @@
 .projects {
   margin-bottom: 16rem;
   scroll-margin-top: 15rem;
+  margin-top: -5rem;
 }
 
 .projects .projects__content {
@@ -33,6 +34,7 @@
 
 .projects ul li .projects__info {
   max-width: 47rem;
+  text-align: center;
 }
 
 .projects ul li .projects__info p {

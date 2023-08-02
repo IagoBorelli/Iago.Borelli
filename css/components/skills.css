@@ -1,6 +1,6 @@
 .skills {
   background-color: var(--light-tertiary-color);
-  scroll-margin-top: 15rem;
+  scroll-margin-top: 10rem;
 }
 
 .skills .skills__content {
@@ -36,4 +36,8 @@
   font-size: 1.6rem;
   font-weight: 500;
   margin: 2rem 0 1rem;
+}
+
+.skills__item p {
+  text-align: center;
 }
