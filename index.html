@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <!-- Meta tags -->
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta property="og:title" content="Iago Borelli" />
-        <meta property="og:description" content="Portifolio.">
-        <meta property="og:url" content="https://iagoborelli.bohr.io" />
-        <meta property="og:image" content="https://iagoborelli.bohr.io/baner-site.png" />
-        <!-- title -->
-        <title>Iago Borelli</title>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-        <!-- CSS -->
-        <link
-        rel="stylesheet" href="css/extends.css"/>
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
-    </head>
-    <body>
-        <!-- navbar -->
-        <nav class="navbar">
-            <div class="navbar__content max-width mb-0">
-                <a href="index.html">
-                    <h2 class="logo">Iago Borelli</h2>
-                </a>
-                <ul class="navbar__links">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Iago Borelli" />
+    <meta property="og:description" content="Portifolio.">
+    <meta property="og:url" content="https://iagoborelli.bohr.io" />
+    <meta property="og:image" content="https://iagoborelli.bohr.io/baner-site.png" />
+    <!-- title -->
+    <title>Iago Borelli</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="index.html">
+                <h2 class="logo">Iago Borelli</h2>
+            </a>
+            <ul class="navbar__links">
+                <li>
+                    <a href="#header">Início</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#projects">Projetos</a>
+                </li>
+                <li>
+                    <a href="#footer">Contato</a>
+                </li>
+                <!-- <li>
+                    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+                </li> -->
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer" />
+                <ul class="mobile__links">
                     <li>
                         <a href="#header">Início</a>
                     </li>
@@ -44,244 +67,286 @@
                     <li>
                         <a href="#footer">Contato</a>
                     </li>
-                </ul>
-                <div class="navbar__mobile">
-                    <img src="assets/menu.svg" alt="menu" class="burguer"/>
-                    <ul class="mobile__links">
-                        <li>
-                            <a href="#header">Início</a>
-                        </li>
-                        <li>
-                            <a href="#about">Sobre</a>
-                        </li>
-                        <li>
-                            <a href="#skills">Habilidades</a>
-                        </li>
-                        <li>
-                            <a href="#projects">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="#footer">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- header -->
-        <header id="header" class="max-width">
-            <div class="header__left">
-                <h1 class="header__h1">E aí!</h1>
-                <h1 class="header__h1">Sou Iago Borelli</h1>
-                <p>
-                    Sou um desenvolvedor front-end apaixonado pela arte de dar vida às ideias através do código. Minha jornada nesse mundo fascinante começou com a curiosidade de entender como a web funciona, e desde então, mergulhei de cabeça nesse universo digital.
-                </p>
-                <a href="#about" class="btn btn-primary">Saiba Mais!</a>
-            </div>
-            <div class="header__right">
-                <div class="header__image">
-                    <img src="assets/iago-borelli.JPG" alt="Iago Borelli" class="iago"/>
-                    <img src="assets/abstract.svg" alt="background" class="background"/>
-                </div>
-            </div>
-        </header>
-
-        <!-- Sobre -->
-        <section id="about" class="about max-width">
-            <div class="about__left">
-                <h2 class="secondary-title">Além do código: quem sou eu?</h2>
-                <p>
-                    Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
-                                                  meu trabalho?
-                </p>
-                <ul>
-                    <li><a href="https://www.instagram.com/iagoborelli.dev/" target="_blank"><img src="assets/instagram.svg" alt="Instagram"/></a></li>
-                    <li><a href="https://www.linkedin.com/in/IagoBorelli/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"/></a></li>
-                    <li><a href="https://github.com/IagoBorelli" target="_blank"><img src="assets/github.svg" alt="Github"/></a></li>
-                </ul>
-            </div>
-            <div class="about__right">
-                <h3 class="tertiary-title mb-m">
-                     Desenvolvedor apaixonado por tecnologia e soluções criativas
-                </h3>
-                <p>
-                     Com o passar do tempo, mergulhei no universo do desenvolvimento web, aprimorando minhas habilidades para criar experiências únicas e cativantes. <br> &nbsp;
-                     Acredito que cada linha de código é uma oportunidade de trazer ideias à vida e, mais do que isso, de impactar positivamente a experiência dos usuários. Minha motivação diária é encontrar soluções inovadoras e desafiadoras que impulsionem os limites da tecnologia.
-
-                </p>
-                <p>
-                    
-                </p>
-            </div>
-        </section>
-
-        <!-- habilidades -->
-        <section id="skills" class="skills">
-            <div class="skills__content max-width">
-                <h2 class="tertiary-title">Minhas Skills</h2>
-                <p class="description">
-                    Descubra as habilidades e ferramentas que domino e que me permitem 
-                    criar soluções criativas e funcionais para meus clientes.
-                </p>
-                <ul>
-                    <li class="skills__item">
-                        <h2>Stacks mais utilizadas</h2>
-                        <p>
-                            Minhas principais stacks de desenvolvimento web: HTML5, CSS3 e JavaScript formam a base para criar interfaces interativas. Bootstrap agiliza o design responsivo. Git e GitHub garantem versionamento e colaboração eficiente.
-                        </p>
-                        <div class="icons">
-                            <img src="assets/html-icon.svg" alt="html5 icon">
-                            <img src="assets/css-icon.svg" alt="css3 icon">
-                            <img src="assets/js-icon.svg" alt="javascript icon">
-                            <img src="assets/bootstrap-icon.svg" alt="Bootstrap icon">
-                            <img src="assets/git-icon.svg" alt="Git icon">
-                            <img src="assets/github-icon.svg" alt="">
-                        </div>
-                    </li>
-                    <li class="skills__item">
-                        <h2>Stacks conhecidas
-                        </h2>
-                        <p>
-                            Possuo conhecimentos básicos em PHP, ReactJS, Tailwind e MariaDB para desenvolvimento web, mas ainda não domino essas stacks. Estou em processo de aprendizado para aprimorar minhas habilidades nesses ambientes tecnológicos.
-                        </p>
-                        <div class="icons">
-                            <img src="assets/react-icon.svg" alt="React icon">
-                            <img src="assets/tailwind-icon.svg" alt="Tailwind icon">
-                            <img src="assets/php-icon.svg" alt="PHP icon">
-                            <img src="assets/mariadb-icon.svg" alt="MariaDB icon">
-                        </div>
-                    </li>
-                    <li class="skills__item">
-                        <h2>Web Design</h2>
-                        <p>
-                            As ferramentas de web design que mais utilizo são o Figma para design de interfaces e prototipagem, o Canva para criação de gráficos e mídias sociais, e o GIMP para edição e manipulação de imagens. Uma combinação poderosa para o desenvolvimento web criativo.
-                        </p>
-                        <div class="icons">
-                            <img src="assets/figma.svg" alt="Figma icon">
-                            <img src="assets/canva-icon.svg" alt="Canva icon">
-                            <img src="assets/gimp-logo.svg" alt="Gimp logo">
-                        </div>
-                    </li>
-
 
                 </ul>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <!-- Projetos -->
-        <section id="projects" class="projects max-width">
-            <div class="projects__content">
-                <h2 class="secondary-title">Projetos em Destaque</h2>
-                <p>
-                    De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos meus trabalhos mais recentes
-                </p>
+    <!-- header -->
+    <header id="header" class="max-width">
+        <div class="header__left">
+            <h1 class="header__h1">E aí!</h1>
+            <h1 class="header__h1">Sou Iago Borelli</h1>
+            <p>
+                Sou um desenvolvedor full stack apaixonado pela arte de dar vida às ideias através do código. Minha
+                jornada nesse mundo fascinante começou com a curiosidade de entender como a web funciona, e desde então,
+                mergulhei de cabeça nesse universo digital, explorando tanto o front-end quanto o back-end.
+            </p>
+            <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+        </div>
+        <div class="header__right">
+            <div class="header__image">
+                <img src="assets/iago-borelli.JPG" alt="Iago Borelli" class="iago" />
+                <img src="assets/abstract.svg" alt="background" class="background" />
             </div>
+        </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+            <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+            <p>
+                Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+                meu trabalho?
+            </p>
             <ul>
-                <li class="projects__reversed-list">
-                    <div class="image">
-                        <img src="assets/turminhaDoSiri.svg" alt="smashaju"/>
-                    </div>
-                    <div class="projects__info">
-                        <h3 class="tertiary-title">
-                            Liga SmashAju
-                        </h3>
-                        <p>
-                            Aplicação web do grupo de e-sports Smashaju, desenvolvida do zero com HTML5, CSS3, Bootstrap, JavaScript e Node.js. Funcionalidades: sistema de pontos para adquirir produtos na área de shop, visualização de posição no ranking estadual e área de informações do grupo.
-                        </p>
-                        <a href="https://smashaju.bohr.io" target="_blank">Acessar &rarr;</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="image">
-                        <img src="assets/coletivoatomico.png" alt="portfolio"/>
-                    </div>
-                    <div class="projects__info">
-                        <h3 class="tertiary-title">
-                            Coletivo Atômico
-                        </h3>
-                        <p>
-                            Portfolio para o estúdio de ilustração Coletivo Atômico, focado em exibir seus emocionantes projetos, tanto em parceria com outros estúdios de animação, quanto os pessoais.
-                            O site foi cuidadosamente construído com as tecnologias HTML5, CSS3 e Bootstrap, garantindo uma experiência visualmente impactante e uma navegação suave em todas as telas e dispositivos.
-                        </p>
-                        <a href="https://www.coletivoatomico.com.br" target="_blank">Acessar &rarr;</a>
-                    </div>
-                </li>
-                <li class="projects__reversed-list">
-                    <div class="image">
-                        <img src="assets/smashaju.png" alt="smashaju"/>
-                    </div>
-                    <div class="projects__info">
-                        <h3 class="tertiary-title">
-                            Liga SmashAju
-                        </h3>
-                        <p>
-                            Aplicação web do grupo de e-sports Smashaju, desenvolvida do zero com HTML5, CSS3, Bootstrap, JavaScript e Node.js. Funcionalidades: sistema de pontos para adquirir produtos na área de shop, visualização de posição no ranking estadual e área de informações do grupo.
-                        </p>
-                        <a href="https://smashaju.bohr.io" target="_blank">Acessar &rarr;</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="image">
-                        <img src="assets/processoseletivo.png" alt="processo seletivo"/>
-                    </div>
-                    <div class="projects__info">
-                        <h3 class="tertiary-title">
-                            Processo Seletivo de Nossa Senhora do Socorro
-                        </h3>
-                        <p>
-                            aplicação web desenvolvida para um processo seletivo, sob demanda da Secretaria de Educação de Nossa Senhora do Socorro. O front-end foi criado utilizando as tecnologias HTML5, CSS3, Bootstrap e JavaScript, enquanto o back-end foi implementado em PHP, com o banco de dados em MariaDB. Essa aplicação busca atender às necessidades específicas do processo seletivo, fornecendo uma interface responsiva e funcional, juntamente com uma estrutura robusta para gerenciar os dados dos candidatos e as etapas do processo seletivo.
-                        </p>
-                        <a href="https://processoseletivo.semedsocorro.com.br/" target="_blank">Acessar &rarr;</a>
-                    </div>
-                </li>
-                <li class="projects__reversed-list">
-                                          <div class="image">
-                                            <img src="assets/sigef.png" alt="ecommerce" />
-                                          </div>
-                                          <div class="projects__info">
-                                            <h3 class="tertiary-title">
-                                              SIGEF
-                                            </h3>
-                                            <p>
-                                              Sistema de gerenciamento de folgas, sob demanda da Secretária de Nossa Senhora do Socorro. Para o front-end utilizei as tecnologias HTML5, CSS3, Bootstrap e Javascript. Esse sistema busca automatizar as solicitações de folgas dos funcionários, fornecendo uma inteface funcional e responsiva.
-                                            </p>
-                                            <!-- <a href="#">Leia mais &rarr;</a> -->
-                                          </div>
-                                        </li> 
+                <li><a href="https://www.instagram.com/iagoborelli.dev/" target="_blank"><img src="assets/instagram.svg"
+                            alt="Instagram" /></a></li>
+                <li><a href="https://www.linkedin.com/in/IagoBorelli/" target="_blank"><img src="assets/linkedin.svg"
+                            alt="Linkedin" /></a></li>
+                <li><a href="https://github.com/IagoBorelli" target="_blank"><img src="assets/github.svg"
+                            alt="Github" /></a></li>
             </ul>
-        </section>
+        </div>
+        <div class="about__right">
+            <h3 class="tertiary-title mb-m">
+                Desenvolvedor apaixonado por tecnologia e soluções criativas
+            </h3>
+            <p>
+                Com o passar do tempo, mergulhei no universo do desenvolvimento web, aprimorando minhas habilidades para
+                criar experiências únicas e cativantes. <br> &nbsp;
+                Acredito que cada linha de código é uma oportunidade de trazer ideias à vida e, mais do que isso, de
+                impactar positivamente a experiência dos usuários. Minha motivação diária é encontrar soluções
+                inovadoras e desafiadoras que impulsionem os limites da tecnologia.
 
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="footer__content max-width mb-0">
-                <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
-                <p class="mb-m">
-                    Ficarei feliz em saber mais sobre seus projetos e como podemos
-                                                  trabalhar juntos para torná-los realidade.
-                </p>
-                <div class="footer__contact mb-m">
-                    <span class="mb-m">
-                        <a href="mailto:iagoborelli.dev@gmail.com">iagoborelli.dev@gmail.com</a>
-                    </span>
-                    <!-- <span>00 00000-0000</span> -->
+            </p>
+            <p>
+
+            </p>
+        </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">Minhas Skills</h2>
+            <p class="description">
+                Descubra as habilidades e ferramentas que domino e que me permitem
+                criar soluções criativas e funcionais para meus clientes.
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <h2>Front-end Stacks</h2>
+                    <p>
+                        Minhas principais stacks de desenvolvimento Front-end: HTML5, CSS3 e JavaScript, Typescript,
+                        React e Next.js formam a base para criar interfaces interativas. Bootstrap e Tailwind agiliza o
+                        design responsivo. As ferramentas de web design que mais utilizo são o Figma para design de
+                        interfaces e prototipagem, o GIMP para edição e manipulação de imagens.
+                    </p>
+                    <div class="icons">
+                        <img src="assets/html-icon.svg" alt="html5 icon">
+                        <img src="assets/css-icon.svg" alt="css3 icon">
+                        <img src="assets/js-icon.svg" alt="javascript icon">
+                        <img src="assets/react-icon.svg" alt="React icon">
+                        <img src="assets/typescript-icon.svg" alt="typescript icon">
+                        <img src="assets/nextjs-icon.svg" alt="nextjs icon">
+                        <img src="assets/bootstrap-icon.svg" alt="Bootstrap icon">
+                        <img src="assets/tailwind-icon.svg" alt="Tailwind icon">
+                        <img src="assets/figma.svg" alt="Figma icon">
+                        <img src="assets/gimp-logo.svg" alt="Gimp icon">
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <h2>Back-end Stacks</h2>
+                    <p>
+                        Minhas principais stacks de desenvolvimento Back-end: PHP e Laravel oferecem uma base sólida
+                        para desenvolvimento rápido e escalável. Com PostgreSQL, MariaDB e MySQL, garanto a segurança e
+                        integridade dos dados, enquanto o Apache assegura a entrega confiável das minhas aplicações web.
+                    </p>
+                    <div class="icons">
+
+                        <img src="assets/php-icon.svg" alt="PHP icon">
+                        <img src="assets/laravel-icon.svg" alt="laravel icon">
+                        <img src="assets/postgresql-icon.svg" alt="postgresql icon">
+                        <img src="assets/mariadb-icon.svg" alt="MariaDB icon">
+                        <img src="assets/mysql-icon.svg" alt="mysql icon">
+                        <img src="assets/apache-icon.svg" alt="apache icon">
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <h2>Stacks Adicionais</h2>
+                    <p>
+                        Minhas stacks adicionais de ferramentas incluem: Git, GitHub e GitLab, essenciais para controle
+                        de versão e colaboração eficiente em projetos. Insomnia, um cliente de API, facilita testes e
+                        debugging de APIs REST. Obsidian é minha escolha para organização de documentações, aprimorando
+                        minha produtividade com uma interface intuitiva e flexível.
+                    </p>
+                    <div class="icons">
+                        <img src="assets/git-icon.svg" alt="git icon">
+                        <img src="assets/github-icon.svg" alt="github icon">
+                        <img src="assets/gitlab-icon.svg" alt="gitlab icon">
+                        <img src="assets/insomnia-icon.svg" alt="insomnia icon">
+                        <img src="assets/obsidian-icon.svg" alt="obsidian icon">
+
+
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaque</h2>
+            <p>
+                De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos meus trabalhos mais recentes
+            </p>
+        </div>
+        <ul>
+
+            <li>
+                <div class="image">
+                    <img src="assets/processoseletivo.svg" alt="processo seletivo" />
                 </div>
-                <ul class="mb-l">
-                    <li>
-                        <a href="https://www.instagram.com/iagoborelli.dev/" target="_blank"><img src="assets/instagram.svg" alt="Instagram"/></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/IagoBorelli/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"/></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IagoBorelli" target="_blank"><img src="assets/github.svg" alt="GITHUB"/></a>
-                    </li>
-                </ul>
-                <p class="footer__copyright">
-                    © 2023 Iago Borelli. Todos os direitos reservados.
-                </p>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Processo Seletivo de Nossa Senhora do Socorro
+                    </h3>
+                    <p>
+                        aplicação web desenvolvida para um processo seletivo, sob demanda da Secretaria de Educação de
+                        Nossa Senhora do Socorro. O front-end foi criado utilizando as tecnologias HTML5, CSS3,
+                        Bootstrap e JavaScript, enquanto o back-end foi implementado em PHP, com o banco de dados em
+                        MariaDB. Essa aplicação busca atender às necessidades específicas do processo seletivo,
+                        fornecendo uma interface responsiva e funcional, juntamente com uma estrutura robusta para
+                        gerenciar os dados dos candidatos e as etapas do processo seletivo.
+                    </p>
+                    <a href="https://processoseletivo.semedsocorro.com.br/" target="_blank">
+                        <button class="btn btn-primary">Acessar &rarr;</button>
+                    </a>
+                </div>
+            </li>
+
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/turminhaDoSiri.svg" alt="smashaju" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Turminha de Siri
+                    </h3>
+                    <p>
+                        Landing Page educativa do projeto Turminha do Siri, sob demanda da Secretaria de Educação de
+                        Nossa Senhora do Socorro. O front-end foi criado utilizando as tecnologias HTML5, CSS3,
+                        Bootstrap e JavaScript. O portal é direcionado a toda a comunidade escolar e conta com jogos
+                        educativos online, materiais didáticos para download, acesso aos episódios da série.
+                    </p>
+                    <a href="https://www.turminhadosiri.semedsocorro.com.br/" target="_blank">
+                        <button class="btn btn-primary">Acessar &rarr;</button>
+                    </a>
+                </div>
+            </li>
+
+            <li class="">
+                <div class="image">
+                    <img src="assets/sigef.png" alt="ecommerce" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        SIGEF
+                    </h3>
+                    <p>
+                        Sistema de gerenciamento de folgas, sob demanda da Secretária de Nossa Senhora do Socorro. Para
+                        o front-end utilizei as tecnologias HTML5, CSS3, Bootstrap e Javascript. Esse sistema busca
+                        automatizar as solicitações de folgas dos funcionários, fornecendo uma inteface funcional e
+                        responsiva.
+                    </p>
+                </div>
+            </li>
+
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/smashaju.png" alt="smashaju" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Liga SmashAju
+                    </h3>
+                    <p>
+                        Aplicação web do grupo de e-sports Smashaju, desenvolvida do zero com HTML5, CSS3, Bootstrap,
+                        JavaScript e Node.js. Funcionalidades: sistema de pontos para adquirir produtos na área de shop,
+                        visualização de posição no ranking estadual e área de informações do grupo.
+                    </p>
+                    <a href="https://smashaju.bohr.io" target="_blank">
+                        <button class="btn btn-primary">Acessar &rarr;</button>
+                    </a>
+                </div>
+            </li>
+
+            <li class="">
+                <div class="image">
+                    <img src="assets/github-profile.svg" alt="smashaju" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Meus Repositórios
+                    </h3>
+                    <p>
+                        Se você está interessado em conhecer mais sobre o meu trabalho como desenvolvedor Full Stack, confira meu perfil no GitHub. Lá você encontrará projetos que destacam minhas habilidades em HTML, CSS, JavaScript, TypeScript, PHP, Laravel, React, NodeJS, e mais.
+                    </p>
+                    <a href="https://github.com/iagoborelli" target="_blank">
+                        <button class="btn btn-primary">Acessar &rarr;</button>
+                    </a>
+                </div>
+            </li>
+
+            
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+            <p class="mb-m">
+                Ficarei feliz em saber mais sobre seus projetos e como podemos
+                trabalhar juntos para torná-los realidade.
+            </p>
+            <div class="footer__contact mb-m">
+                <span class="mb-m">
+                    <a href="mailto:iagoborelli.dev@gmail.com">iagoborelli.dev@gmail.com</a>
+                </span>
             </div>
-        </footer>
-        <!-- script -->
-        <script src="scripts/index.js"></script>
-    </body>
+            <ul class="mb-l">
+                <li>
+                    <a href="https://www.instagram.com/iagoborelli.dev/" target="_blank">
+                        <img src="assets/instagram.svg" alt="Instagram" />
+                        </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/IagoBorelli/" target="_blank"><img src="assets/linkedin.svg"
+                            alt="Linkedin" /></a>
+                </li>
+                <li>
+                    <a href="https://github.com/IagoBorelli" target="_blank"><img src="assets/github.svg"
+                            alt="GITHUB" /></a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5579991422464" target="_blank"><img src="assets/whatsapp.svg"
+                            alt="GITHUB" /></a>
+                </li>
+            </ul>
+            <p class="footer__copyright">
+                © <span id="anoAtual"></span> Iago Borelli. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+</body>
+
 </html>

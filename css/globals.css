@@ -15,6 +15,11 @@ body {
   margin-top: 15rem;
 }
 
+*.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
 ul {
   list-style: none;
 }
@@ -69,6 +74,14 @@ p:not(:last-of-type),
   color: var(--white);
   font-weight: 400;
   font-size: 1.4rem;
+}
+
+.btn.btn-primary:hover {
+  cursor: pointer;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .max-width {
